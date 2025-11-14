@@ -3,6 +3,7 @@ class Circle {
 
     public Circle(double radius){
         this.radius=radius;
+        System.out.println("Circle object is created");
     }
 
     public double area(){
